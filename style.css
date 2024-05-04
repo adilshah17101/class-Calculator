@@ -1,0 +1,108 @@
+* {
+    margin:0;
+    padding: 0;
+}
+ body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+   justify-content: center;
+   align-items: center;
+    background: linear-gradient(to top left, green,rgb(72, 160, 72));
+ }
+ .main {
+    width: 300px;
+    padding: 40px 8px;
+    margin: 10px;
+    background-color: black;
+    border-radius: 19px;
+    box-shadow: 1px 1px 1px 10px rgba(0, 0, 0, 0.87);
+    border: 1px solid rgba(196, 11, 186, 0.808);
+    
+ }
+ input{
+    background-color: rgba(255, 255, 0, 0.671);
+    width: 80%;
+    border-radius: 10px;
+    padding: 18px;
+    outline: none;
+    box-shadow: -1px 1px 1px 1px hsl(247, 10%, 47%);
+    text-align: right;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ 
+ ::placeholder{
+    color: rgb(12, 11, 11);
+    font-size: 25px;
+    float: right;
+    font-weight: bold;
+ }
+ 
+ .body {
+     margin-top: 12px;
+ }
+.btns{
+    margin: 8px;
+    padding: 18px;
+    border-radius: 10px;
+    flex-direction: column;
+    box-shadow: -3px 3px 3px 2px #e4dede;
+    justify-content: space-around;
+    background-color: transparent;
+    color: #fff;
+    font-weight: bolder;
+    font-size:15px ;
+    
+}
+#clearbtn {
+    color: white;
+    padding: 18px;
+    width: 8rem;
+    margin-right: 5px;
+    border-radius:10px ;
+    background-color: red;
+    box-shadow: -3px 3px 1px 1px hwb(300 7% 20%);
+    box-shadow: 1px 1px 1px .1px #0f99c4;
+    font-weight: bolder;
+    font-size: 14px;
+}
+#plus {
+    padding: 20px;
+    height: 8rem;
+    border-radius:10px ;
+    position: relative;
+    margin-left: 0.5rem;
+    margin-top: -5rem;
+    top: -2.1rem;
+    box-shadow: -3px 3px 1px 1px hwb(300 7% 20%);
+    font-weight: bolder;
+    background-color: #c40f4b;
+    font-size: 14px;
+    color: white;
+    
+}
+#nearp {
+    margin-right: 5px;
+    margin-top: -0.02rem;
+    
+}
+
+  #box1{
+    position:relative;
+    margin-right: 65px;
+} 
+.box{
+    margin-top:-1.6rem;
+    justify-content: space-around;
+   margin-right: 6px;
+   margin-left: 5px;
+}
+h5{
+    color: rgb(235, 17, 162);
+    position: relative;
+    top: -6.8rem;
+    right: 4rem;
+}
+
